@@ -115,7 +115,7 @@ nav button {
   background-color: #e50914;
   color: white;
   border: none;
-  transition:all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .btn-red {
   background-color: #e50914;
@@ -125,7 +125,7 @@ nav button {
   border-radius: 4px;
   font-weight: 400;
   border: none;
-  transition:all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .btn-red:hover,
@@ -248,6 +248,11 @@ footer .questions {
     transform: scale(0.6);
   }
 }
+@media screen and (max-width: 800px) {
+  .hero-buttons {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 1300px) {
   nav {
     max-width: 90vw;
@@ -266,9 +271,6 @@ footer .questions {
   }
   .hero > :nth-child(3) {
     font-size: 18px;
-  }
-  .hero-buttons {
-    flex-direction: column;
   }
   .faq h2 {
     font-size: 32px;
