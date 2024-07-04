@@ -47,7 +47,7 @@ nav button {
   z-index: 1000;
 }
 
-.main .hero {
+.hero {
   font-family: "Martel Sans", sans-serif;
   height: calc(100% - 100px);
   display: flex;
@@ -100,7 +100,7 @@ nav button {
   border-radius: 4px;
 }
 
-.main input {
+.hero input {
   padding: 15px 101px 15px 14px;
   font-size: 12px;
   font-weight: 600;
